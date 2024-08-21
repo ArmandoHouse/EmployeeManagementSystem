@@ -13,7 +13,7 @@
 
 
         //Relacion: Muchos a uno
-        public GeneralDeparment? GeneralDeparment { get; set; }
+        public GeneralDepartment? GeneralDeparment { get; set; }
         public int GeneralDepartmentId { get; set; }
 
         public Department? Department { get; set; }
